@@ -7,11 +7,11 @@ export default class TopNav extends React.Component {
         <h1>Hulu</h1>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Who Are We</li>
-            <li>What We Do</li>
-            <li>Register</li>
-            <li>Login</li>     
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">Who Are We</a></li>
+            <li><a href="/what">What We Do</a></li>
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login">Login</a></li>     
           </ul>
         </nav>
       </div>
