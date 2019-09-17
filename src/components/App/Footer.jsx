@@ -6,9 +6,10 @@ import facebook from '../../assets/facebook.svg';
 export default class Footer extends React.Component {
   render() {
     return (
+      <div className="body__footer">
       <footer className="footer-container">
         <ul >
-          <li ><Link to="/about" >About us</Link></li>
+          <li ><Link to="/about" className="footer__about" >About us</Link></li>
           <li ><Link to="/contact" >Contact</Link></li>
         </ul>
         <ul >
@@ -26,6 +27,7 @@ export default class Footer extends React.Component {
           </li>
         </ul>
       </footer>
+      </div>
     );
   }
 }

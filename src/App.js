@@ -1,13 +1,13 @@
 import React from 'react';
 
-import TopNav from './components/App/TopNav';
+import Header from './components/App/Header';
 import Footer from './components/App/Footer';
 import Routes from './components/App/Routes'
 
 function App() {
   return (
     <div>
-      <TopNav></TopNav>
+      <Header></Header>
       <main className="container">
         <Routes />
       </main>
