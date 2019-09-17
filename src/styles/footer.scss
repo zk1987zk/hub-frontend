@@ -1,7 +1,7 @@
 @import "./mixin.scss";
 @import"./variables.scss";
-.nav-container {
-//   border: solid 2px white;
+.footer-container {
+  //   border: solid 2px white;
   margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
@@ -14,24 +14,18 @@
     display: flex;
     align-items: baseline;
     list-style: none;
-    color: white;
     li a {
-      padding:10px 30px;
+      padding: 10px 30px;
+      font-size: 1rem;
       color: white;
       text-decoration: none;
       @include pointer;
+      .footer__icon{
+          height: 1rem;
+      }
     }
-  }
-  .nav__left {
-    font-size: 3rem;
-    .nav__logo {
-        height: 66px;
-    } 
-  }
-  .nav__right {
-    font-size: 2.2rem;
     li a:hover {
         color: $red;
     }
-  } 
+  }
 }
