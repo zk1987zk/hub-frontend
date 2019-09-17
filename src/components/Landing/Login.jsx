@@ -9,5 +9,3 @@ export default class Home extends React.Component {
     )
   }
 }
-
-// try login part
