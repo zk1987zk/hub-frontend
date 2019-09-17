@@ -20,6 +20,9 @@
       color: white;
       text-decoration: none;
       @include pointer;
+      .footer__icon{
+          height: 1rem;
+      }
     }
     li a:hover {
         color: $red;
